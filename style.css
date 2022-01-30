@@ -1,0 +1,62 @@
+#igual {
+  width: 85px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5px
+}
+
+#punto, #cero, #punto, #uno, #dos, #tres, #suma,
+#cuatro, #cinco, #seis, #siete, #resta, #ocho, #nueve,
+#multiplicar
+ {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#porcentaje {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+#reseteo {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5px
+}
+#dividir {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5px
+}
+
+#borrar {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-top: 5px
+}
+
+
+#caja1 {
+  background-color: blue;
+}
+
+#myForm {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,24,1) 100%, rgba(0,212,255,1) 100%);
+  margin: 5rem;
+  border-radius: 1rem;
+  
+  width: 18rem;
+  padding: 56px;
+}
+
+#resultado {
+  width: 11rem;
+}
+
