@@ -12,39 +12,42 @@ const punto = document.getElementById("punto")[0]
  let opeAnterior = ""
  let operacion = undefined
 
-numeros.forEach(function(boton) {
-  boton.addEventListener("click", function(e)  {
+numeros.forEach((boton)  => {
+  boton.addEventListener("click", (e)  => {
       e.preventDefault()
       agregarNumero(boton.innerText)
       //alert(boton.innerHTML)
   })
 })
 
-operador.forEach(function(boton) {
-  boton.addEventListener("click", function(e)  {
+operador.forEach((boton)  =>{
+  boton.addEventListener("click", (e) =>  {
       e.preventDefault()
       selecionOperador(boton.innerText)
       //alert(boton.innerHTML)
   })
 })
 
-igual.addEventListener("click", function(e) {
+igual.addEventListener("click", (e) => {
   e.preventDefault()
     calcular()
     actualizarDisplay()
 })
 
 
-borrar.addEventListener("click", function(e) {
+borrar.addEventListener("click", (e) => {
   e.preventDefault()
   clear()
   actualizarDisplay()
 })
 
-punto.addEventListener("click", function(e) {
+punto.addEventListener("click", (e) =>{
  e.preventDefault()
  agregarNumero(punto.innerText)
 })
+
+
+
 
 
 function selecionOperador (op) {
