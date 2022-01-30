@@ -47,16 +47,50 @@
 }
 
 #myForm {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,24,1) 100%, rgba(0,212,255,1) 100%);
   margin: 5rem;
   border-radius: 1rem;
-  
+  background-color: rgb(51, 46, 54);
   width: 18rem;
   padding: 56px;
 }
 
 #resultado {
   width: 11rem;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: right;
+  background: rgb(22, 173, 128);
+  border-color: cornsilk;
 }
+
+
+#tuerca1 {
+  width: 50px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 10px; 
+}
+
+#tuerca2 {
+  width: 50px;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 408px; 
+}
+
+#tuerca3 {
+  width: 50px;
+  position: absolute;
+  margin-left: 330px;
+  margin-top: 10px; 
+}
+
+#tuerca4 {
+  width: 50px;
+  position: absolute;
+  margin-left: 330px;
+  margin-top:  408px; 
+}
+
+
 
